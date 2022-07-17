@@ -1,0 +1,21 @@
+body {
+  background-color: rgba(88, 83, 83, 0.979);
+  font-family: sans-serif;
+  display: flex;
+  flex-flow:column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.outerBar{
+  border:1px solid black;
+  width:20vw;
+  height:3vh;
+  margin-top: 2vh;
+
+}
+.innerBar{
+  background-color: chartreuse;
+  width:0vw;
+  height:3vh;
+}

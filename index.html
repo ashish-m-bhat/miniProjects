@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./index.css"
+  </head>
+
+  <body>
+
+    <div id="wrapperDiv">
+        <button id="loadingBar">Loading Bar</button>
+        <button id="starRating">Star Rating</button>
+    </div>
+
+    <script>
+        document.getElementById('wrapperDiv').addEventListener('click', (e)=>{
+            switch(e.target.id){
+                case 'loadingBar':
+                    window.location.href= 'http://127.0.0.1:5500/src/pages/loadingBar.html';
+                    break;
+
+                case 'starRating':
+                window.location.href= 'http://127.0.0.1:5500/src/pages/starRating.html';
+                break;
+            }
+        })
+    </script>
+  </body>
+</html>

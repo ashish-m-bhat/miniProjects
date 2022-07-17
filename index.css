@@ -1,0 +1,29 @@
+body{
+    height: 90vh;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#wrapperDiv{
+    display: flex;
+
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    border-radius: 50%;
+    cursor: pointer;
+    height: 6vh;
+    width: 8vw;
+    margin:2vh;
+
+    color:white;
+    background-color: rgb(3, 212, 55);
+}
+
+button:hover{
+    background-color: rgb(82, 87, 87);
+}

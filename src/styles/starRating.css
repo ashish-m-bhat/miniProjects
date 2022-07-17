@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+
+    display: flex;
+    flex-flow: column nowrap ;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapperDiv{
+    width: 50%;
+    height: 20vh;
+    margin: auto;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-star-o:before {
+    cursor: pointer;
+    content: "\f006";
+    color: #5f6368;
+    margin-left: 2vw;
+
+}
+
+.fa-star:before {
+    cursor: pointer;
+    content: "\f005";
+    color: #d56e0c;
+    margin-left: 2vw;
+}
